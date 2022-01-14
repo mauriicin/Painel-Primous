@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+
+RewriteEngine on
+
+ErrorDocument 404 /primous-admin/404.html
+
+RewriteRule ^primous-pages/(.+)?$ /404.html
